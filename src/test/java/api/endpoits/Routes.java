@@ -10,6 +10,5 @@ public class Routes {
 	public static String userGetUrl = baseUrl+"/user/{username}";
 	public static String userUpdateUrl = baseUrl+"/user/{username}";
 	public static String userDeleteUrl = baseUrl+"/user/{username}";
-	public static String petPostUrl = baseUrl +"/pet";
 
 }
