@@ -42,6 +42,6 @@ public class DDTests {
 	@Test(priority=3, dataProvider = "UserName", dataProviderClass = DataProviders.class)
 	public void testDeleteUserByName(String userName) {
 		Response res = UserEndPoints.deleteUser(userName);
-		Assert.assertEquals(res.getStatusCode(), 200);
+		Assert.assertEquals(res.getStatusCode(), 201);
 	}
 }
