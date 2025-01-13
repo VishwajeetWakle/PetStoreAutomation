@@ -7,6 +7,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 // created for perform CURD operations on user api
+//created for perform CURD operations on user api2
 public class UserEndPoints {
 
 	public static Response createUser(User payload) {
